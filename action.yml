@@ -1,0 +1,5 @@
+name: "Monday.com Link"
+description: "Enforce a link to be present in the PR description to a Monday.com item"
+runs:
+  using: "node16"
+  main: "dist/index.js"
